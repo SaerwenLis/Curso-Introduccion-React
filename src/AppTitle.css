@@ -1,0 +1,22 @@
+.title-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.AppTitle {
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+    padding-top: 26px;
+    color: #401d77;
+}
+
+.Image {
+    width: 260px;
+    margin-top: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+}
