@@ -1,6 +1,6 @@
 import React from "react";
-import './AppTitle.css';
-import image from './bubble-girl-2.png';
+import '../styles/AppTitle.css';
+import image from '../bubble-girl-2.png';
 
 function AppTitle() {
     return (
@@ -8,7 +8,6 @@ function AppTitle() {
         <img className="Image" src={image} alt='girl'></img>
         <h1 className="AppTitle">My Tasks</h1>
         </div>
-
     )
 }
 
