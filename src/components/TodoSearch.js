@@ -8,12 +8,15 @@ function TodoSearch() {
         setSearchValue(event.target.value)
     }
     return(
-        <input 
+        <div className="TodoSearch-container">
+            <input 
             className="TodoSearch" 
             placeholder="Search..."
             value={searchValue}
             onChange={onSearchValueChange} 
         />
+        </div>
+        
     );
 }
 

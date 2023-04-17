@@ -1,0 +1,37 @@
+.LoadingTodo-container {
+    background-color: #e3d8f5;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    box-shadow: 0px 10px 25px rgba(64, 29, 119, 0.2);
+    border-radius: 8px;
+  }
+  
+  .LoadingTodo-text {
+    margin: 16px 0 16px 24px;
+    width: calc(100% - 120px);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  
+  .LoadingTodo-container {
+    background: linear-gradient(90deg, rgb(221, 206, 245), rgb(194, 174, 226));
+    background-size: 400% 400%;
+    animation: loadingAnimation 3s ease-in-out infinite;
+  }
+  
+  @keyframes loadingAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
